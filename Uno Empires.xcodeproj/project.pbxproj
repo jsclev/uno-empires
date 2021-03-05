@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521C800B25F1FA58001AF842 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800625F1FA58001AF842 /* Building.swift */; };
+		521C800C25F1FA58001AF842 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800625F1FA58001AF842 /* Building.swift */; };
+		521C800D25F1FA58001AF842 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800625F1FA58001AF842 /* Building.swift */; };
+		521C800E25F1FA58001AF842 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800725F1FA58001AF842 /* Unit.swift */; };
+		521C800F25F1FA58001AF842 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800725F1FA58001AF842 /* Unit.swift */; };
+		521C801025F1FA58001AF842 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800725F1FA58001AF842 /* Unit.swift */; };
+		521C801125F1FA58001AF842 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800825F1FA58001AF842 /* Map.swift */; };
+		521C801225F1FA58001AF842 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800825F1FA58001AF842 /* Map.swift */; };
+		521C801325F1FA58001AF842 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800825F1FA58001AF842 /* Map.swift */; };
+		521C801425F1FA58001AF842 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800925F1FA58001AF842 /* Tile.swift */; };
+		521C801525F1FA58001AF842 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800925F1FA58001AF842 /* Tile.swift */; };
+		521C801625F1FA58001AF842 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800925F1FA58001AF842 /* Tile.swift */; };
+		521C801725F1FA58001AF842 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800A25F1FA58001AF842 /* Difficulty.swift */; };
+		521C801825F1FA58001AF842 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800A25F1FA58001AF842 /* Difficulty.swift */; };
+		521C801925F1FA58001AF842 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800A25F1FA58001AF842 /* Difficulty.swift */; };
 		528FC67325F1F52600CC6138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FC67225F1F52600CC6138 /* AppDelegate.swift */; };
 		528FC67625F1F52600CC6138 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FC67525F1F52600CC6138 /* Renderer.swift */; };
 		528FC67825F1F52600CC6138 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FC67725F1F52600CC6138 /* GameViewController.swift */; };
@@ -35,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		521C800625F1FA58001AF842 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		521C800725F1FA58001AF842 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		521C800825F1FA58001AF842 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		521C800925F1FA58001AF842 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		521C800A25F1FA58001AF842 /* Difficulty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
 		528FC66F25F1F52600CC6138 /* Uno Empires.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uno Empires.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528FC67225F1F52600CC6138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528FC67425F1F52600CC6138 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
@@ -77,6 +97,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521C800525F1FA58001AF842 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				521C800625F1FA58001AF842 /* Building.swift */,
+				521C800725F1FA58001AF842 /* Unit.swift */,
+				521C800825F1FA58001AF842 /* Map.swift */,
+				521C800925F1FA58001AF842 /* Tile.swift */,
+				521C800A25F1FA58001AF842 /* Difficulty.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		528FC66625F1F52600CC6138 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +132,7 @@
 		528FC67125F1F52600CC6138 /* Uno Empires */ = {
 			isa = PBXGroup;
 			children = (
+				521C800525F1FA58001AF842 /* Models */,
 				528FC67225F1F52600CC6138 /* AppDelegate.swift */,
 				528FC67425F1F52600CC6138 /* ShaderTypes.h */,
 				528FC67525F1F52600CC6138 /* Renderer.swift */,
@@ -261,6 +294,11 @@
 			files = (
 				528FC67A25F1F52600CC6138 /* Shaders.metal in Sources */,
 				528FC67625F1F52600CC6138 /* Renderer.swift in Sources */,
+				521C800B25F1FA58001AF842 /* Building.swift in Sources */,
+				521C801425F1FA58001AF842 /* Tile.swift in Sources */,
+				521C801125F1FA58001AF842 /* Map.swift in Sources */,
+				521C801725F1FA58001AF842 /* Difficulty.swift in Sources */,
+				521C800E25F1FA58001AF842 /* Unit.swift in Sources */,
 				528FC67825F1F52600CC6138 /* GameViewController.swift in Sources */,
 				528FC67325F1F52600CC6138 /* AppDelegate.swift in Sources */,
 			);
@@ -270,7 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521C800F25F1FA58001AF842 /* Unit.swift in Sources */,
 				528FC68A25F1F52A00CC6138 /* Uno_EmpiresTests.swift in Sources */,
+				521C801825F1FA58001AF842 /* Difficulty.swift in Sources */,
+				521C801525F1FA58001AF842 /* Tile.swift in Sources */,
+				521C801225F1FA58001AF842 /* Map.swift in Sources */,
+				521C800C25F1FA58001AF842 /* Building.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521C801025F1FA58001AF842 /* Unit.swift in Sources */,
 				528FC69525F1F52A00CC6138 /* Uno_EmpiresUITests.swift in Sources */,
+				521C801925F1FA58001AF842 /* Difficulty.swift in Sources */,
+				521C801625F1FA58001AF842 /* Tile.swift in Sources */,
+				521C801325F1FA58001AF842 /* Map.swift in Sources */,
+				521C800D25F1FA58001AF842 /* Building.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
