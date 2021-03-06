@@ -20,6 +20,14 @@ CREATE TABLE technology_prereq
 
 CREATE TABLE unit
 (
-    id   INTEGER PRIMARY KEY,
-    name TEXT NOT NULL
+    id         INTEGER PRIMARY KEY,
+    name       TEXT    NOT NULL,
+    cost       INTEGER NOT NULL,
+    attack     INTEGER,
+    defense    INTEGER,
+    hp         INTEGER,
+    fp         INTEGER,
+    movement   INTEGER,
+    technology TEXT,
+    obsolete   TEXT
 );

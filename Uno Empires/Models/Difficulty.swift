@@ -1,8 +1,12 @@
-//
-// Created by John Cleveland on 3/4/21.
-//
-
 import Foundation
 
-class Difficulty {
+enum Difficulty {
+    case settler
+    case chieftain
+    case warlord
+    case prince
+    case king
+    case emperor
+    case immortal
+    case deity
 }
