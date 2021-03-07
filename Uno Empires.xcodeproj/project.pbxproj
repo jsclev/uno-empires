@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31DD02D148F3AA5D1CCA0F22 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD01469687AF17B45D3587 /* Player.swift */; };
+		31DD032A905D48DBC1183783 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD01469687AF17B45D3587 /* Player.swift */; };
+		31DD0550AE0174F5D0726258 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0C352BE33D31EB13D714 /* City.swift */; };
+		31DD05AF4690CCCC6823D159 /* Civilization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD08E73EFA395D804516B9 /* Civilization.swift */; };
+		31DD05CFBE8B6BA2C35E6FC8 /* Terrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD09853DBBE2F5702B989B /* Terrain.swift */; };
+		31DD06EE78FB248FB8199117 /* Civilization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD08E73EFA395D804516B9 /* Civilization.swift */; };
+		31DD074778500CE3C395C8CE /* Civilization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD08E73EFA395D804516B9 /* Civilization.swift */; };
+		31DD07B8F4406B6F9C98611F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0E60DAEA4E85B13FBF94 /* Resource.swift */; };
+		31DD094193D064AC731F7A1E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0BB9F3CD114EEA28AC2C /* Game.swift */; };
+		31DD09AD32F024140026627F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0E60DAEA4E85B13FBF94 /* Resource.swift */; };
+		31DD0C6B3AC7DC77E623E1C0 /* Terrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD09853DBBE2F5702B989B /* Terrain.swift */; };
+		31DD0CD875845073CF11B6ED /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0C352BE33D31EB13D714 /* City.swift */; };
+		31DD0CE00A28298E57203447 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0BB9F3CD114EEA28AC2C /* Game.swift */; };
+		31DD0D47275F6381AF7D8855 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0BB9F3CD114EEA28AC2C /* Game.swift */; };
+		31DD0EC7D3C5822062FC0B9D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0C352BE33D31EB13D714 /* City.swift */; };
+		31DD0F80C2A3678B2DB8F3E8 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD0E60DAEA4E85B13FBF94 /* Resource.swift */; };
+		31DD0F9DDB6DA2E208667C1F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD01469687AF17B45D3587 /* Player.swift */; };
+		31DD0FFA79F6DD8BE3AE7317 /* Terrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD09853DBBE2F5702B989B /* Terrain.swift */; };
 		521C800B25F1FA58001AF842 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800625F1FA58001AF842 /* Building.swift */; };
 		521C800C25F1FA58001AF842 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800625F1FA58001AF842 /* Building.swift */; };
 		521C800D25F1FA58001AF842 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C800625F1FA58001AF842 /* Building.swift */; };
@@ -50,7 +68,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31DD01469687AF17B45D3587 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		31DD08E73EFA395D804516B9 /* Civilization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Civilization.swift; sourceTree = "<group>"; };
+		31DD09853DBBE2F5702B989B /* Terrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terrain.swift; sourceTree = "<group>"; };
+		31DD0BB9F3CD114EEA28AC2C /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		31DD0C352BE33D31EB13D714 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		31DD0CD78300FEF350E5B4A0 /* Db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = Db; sourceTree = "<group>"; };
+		31DD0E60DAEA4E85B13FBF94 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		521C800625F1FA58001AF842 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
 		521C800725F1FA58001AF842 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		521C800825F1FA58001AF842 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
@@ -106,6 +130,12 @@
 				521C800825F1FA58001AF842 /* Map.swift */,
 				521C800925F1FA58001AF842 /* Tile.swift */,
 				521C800A25F1FA58001AF842 /* Difficulty.swift */,
+				31DD0BB9F3CD114EEA28AC2C /* Game.swift */,
+				31DD08E73EFA395D804516B9 /* Civilization.swift */,
+				31DD0C352BE33D31EB13D714 /* City.swift */,
+				31DD01469687AF17B45D3587 /* Player.swift */,
+				31DD09853DBBE2F5702B989B /* Terrain.swift */,
+				31DD0E60DAEA4E85B13FBF94 /* Resource.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -303,6 +333,12 @@
 				521C800E25F1FA58001AF842 /* Unit.swift in Sources */,
 				528FC67825F1F52600CC6138 /* GameViewController.swift in Sources */,
 				528FC67325F1F52600CC6138 /* AppDelegate.swift in Sources */,
+				31DD0D47275F6381AF7D8855 /* Game.swift in Sources */,
+				31DD074778500CE3C395C8CE /* Civilization.swift in Sources */,
+				31DD0EC7D3C5822062FC0B9D /* City.swift in Sources */,
+				31DD032A905D48DBC1183783 /* Player.swift in Sources */,
+				31DD0C6B3AC7DC77E623E1C0 /* Terrain.swift in Sources */,
+				31DD0F80C2A3678B2DB8F3E8 /* Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +352,12 @@
 				521C801525F1FA58001AF842 /* Tile.swift in Sources */,
 				521C801225F1FA58001AF842 /* Map.swift in Sources */,
 				521C800C25F1FA58001AF842 /* Building.swift in Sources */,
+				31DD094193D064AC731F7A1E /* Game.swift in Sources */,
+				31DD06EE78FB248FB8199117 /* Civilization.swift in Sources */,
+				31DD0CD875845073CF11B6ED /* City.swift in Sources */,
+				31DD02D148F3AA5D1CCA0F22 /* Player.swift in Sources */,
+				31DD0FFA79F6DD8BE3AE7317 /* Terrain.swift in Sources */,
+				31DD09AD32F024140026627F /* Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +371,12 @@
 				521C801625F1FA58001AF842 /* Tile.swift in Sources */,
 				521C801325F1FA58001AF842 /* Map.swift in Sources */,
 				521C800D25F1FA58001AF842 /* Building.swift in Sources */,
+				31DD0CE00A28298E57203447 /* Game.swift in Sources */,
+				31DD05AF4690CCCC6823D159 /* Civilization.swift in Sources */,
+				31DD0550AE0174F5D0726258 /* City.swift in Sources */,
+				31DD0F9DDB6DA2E208667C1F /* Player.swift in Sources */,
+				31DD05CFBE8B6BA2C35E6FC8 /* Terrain.swift in Sources */,
+				31DD07B8F4406B6F9C98611F /* Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

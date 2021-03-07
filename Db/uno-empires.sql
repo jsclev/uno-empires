@@ -4,6 +4,12 @@ CREATE TABLE building
     name TEXT NOT NULL
 );
 
+CREATE TABLE civilization
+(
+    id    INTEGER PRIMARY KEY,
+    name  TEXT NOT NULL UNIQUE
+);
+
 CREATE TABLE technology
 (
     id       INTEGER PRIMARY KEY,

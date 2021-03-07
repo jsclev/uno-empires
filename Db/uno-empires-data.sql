@@ -1,3 +1,25 @@
+insert into civilization values (NULL, 'Romans');
+insert into civilization values (NULL, 'Russians');
+insert into civilization values (NULL, 'Celts');
+insert into civilization values (NULL, 'Babylonians');
+insert into civilization values (NULL, 'Zulus');
+insert into civilization values (NULL, 'Japanese');
+insert into civilization values (NULL, 'Germans');
+insert into civilization values (NULL, 'French');
+insert into civilization values (NULL, 'Vikings');
+insert into civilization values (NULL, 'Egyptians');
+insert into civilization values (NULL, 'Aztecs');
+insert into civilization values (NULL, 'Spanish');
+insert into civilization values (NULL, 'Americans');
+insert into civilization values (NULL, 'Chinese');
+insert into civilization values (NULL, 'Persians');
+insert into civilization values (NULL, 'Greeks');
+insert into civilization values (NULL, 'English');
+insert into civilization values (NULL, 'Carthaginians');
+insert into civilization values (NULL, 'Indians');
+insert into civilization values (NULL, 'Mongols');
+insert into civilization values (NULL, 'Sioux');
+
 insert into building values (NULL, 'Airport');
 insert into building values (NULL, 'Aqueduct');
 insert into building values (NULL, 'Bank');

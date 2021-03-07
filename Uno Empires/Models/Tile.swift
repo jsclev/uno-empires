@@ -1,4 +1,6 @@
 import Foundation
 
-class Tile {
+struct Tile {
+    let x: Int
+    let y: Int
 }
